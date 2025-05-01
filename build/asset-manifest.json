@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48ab1995.css",
+    "main.js": "/static/js/main.cf6727e8.js",
+    "static/media/sticker.webpcss.webp": "/static/media/sticker.webpcss.4a7e62f453940a1fc229.webp",
+    "static/media/sticker.webp": "/static/media/sticker.d5353da2e17f79a204fd.webp",
+    "index.html": "/index.html",
+    "main.48ab1995.css.map": "/static/css/main.48ab1995.css.map",
+    "main.cf6727e8.js.map": "/static/js/main.cf6727e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48ab1995.css",
+    "static/js/main.cf6727e8.js"
+  ]
+}

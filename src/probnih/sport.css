@@ -1,0 +1,533 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+        /* outline: 1px solid red; */
+
+}
+
+body {
+    height: auto;
+    
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.liddiv {
+
+}
+
+img {
+    border-radius: 10px;
+}
+
+.aheader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+button {
+    cursor: pointer;
+    
+}
+
+.cheader {
+    background-color: rgb(196, 176, 150);
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin-top: px;
+}
+
+.headerh4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    right: 45%;
+    top: -10px;
+}
+
+.bheader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background: rgb(232, 232, 232);
+}
+
+.ikonki {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ikonka {
+    background: none;
+    width: 20%;
+    height: 56%;
+    border: none;
+    outline: none
+}
+
+.variant4 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.varian4b {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.imglogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 120px;
+}
+
+.logo1 {
+    border-radius: 8px;
+}
+
+.showdropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    margin-top: 76px;
+    margin-left: 160px;
+    
+
+}
+
+.showdropdown .kh {
+    margin: none;
+    
+}
+
+.kh {
+    border: none;
+    margin: 0;
+    width: 100%;
+    background: none;
+}
+
+.kanaci{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    margin-top: 76px;
+    margin-left: -230px;
+}
+
+.kk {
+    border:none;
+    background: none;
+    width: 100%;
+}
+
+.txkoshik {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    margin-left: 179px;
+    
+}
+
+.txk {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.knkoshik {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    margin-left: -179px;
+
+}
+
+.knk {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.fotoone {
+    width: 100%;
+    height: 800px;
+}
+
+.foto2 {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.fotokantxa {
+    
+    width: 100%;
+    margin-top: 10px;
+    background: none;
+    
+}
+
+.fotokanaci {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fototxamardu {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.kanacibutton{
+    
+    width: 49%;
+    height: 440px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 1%;
+}
+
+.txamardubutton {
+    margin-left: 1%;
+    width: 49%;
+    height: 440px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.h4txamardu
+
+.ereqfot {
+    border-radius: 10px;
+    border: 67x solid #000;
+    width: 100%;
+    height: 10%;
+}
+
+.buttonereqfoto {
+    background: none;
+    width: 10%;
+    height: 440px;
+    margin: 25px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: none;
+}
+
+.ereqfoto {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin: 8px;
+    
+}
+
+#button31 {
+    
+    
+    outline: 1px solid black;
+}
+
+#button32 {
+    outline: 1px solid black;
+}
+
+#button33 {
+    outline: 1px solid black;
+}
+
+
+.h4kanaci {
+    position: absolute;
+    background: wh;
+    font-size: 40px;
+    background: none;
+    font-weight: 700;
+    margin-left: 100px;
+    transition: transform 1s ease;
+    top: 1220px;
+    left: 170px;
+    color: white;
+}
+
+
+.h4txamardu {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+
+    left: 1050px;
+    transition: transform 1s ease;
+    color: white;
+    top: 1220px;
+    background: none;
+}
+
+.txamardubutton:hover .h4txamardu {
+    transform: scale(1.2);
+}
+
+.kanacibutton:hover .h4kanaci {
+    transform: scale(1.2);
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #000;
+    background: slategrey;
+    cursor: pointer;
+    position: relative;
+    margin-left: 630px;
+    z-index: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.glow-on-hover::before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color:  #000;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(170deg, rgba(49, 57, 73, 0.8) 20%, rgba(49, 57, 73, 0.5) 20%, rgba(49, 57, 73, 0.5) 35%, rgba(41, 48, 61, 0.6) 35%, rgba(41, 48, 61, 0.8) 45%, rgba(31, 36, 46, 0.5) 45%, rgba(31, 36, 46, 0.8) 75%, rgba(49, 57, 73, 0.5) 75%), linear-gradient(45deg, rgba(20, 24, 31, 0.8) 0%, rgba(41, 48, 61, 0.8) 50%, rgba(82, 95, 122, 0.8) 50%, rgba(133, 146, 173, 0.8) 100%) #313949;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.fotoonecont {
+    display: inline-block;
+}
+
+.h4sev {
+    color: white;
+}
+
+.shapkan {
+    border-radius: 5px;
+    background: rgb(196, 176, 150);
+    width: 100%;
+    margin-bottom: none;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vecydiv {
+    margin-bottom: none;
+    background: black;
+    margin-top: 70px;
+    color: white;
+    border-radius: 6px;
+}
+
+.h4shapka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.hingdiv {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.razmetka1 {
+    overflow: hidden;
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    color: black;
+}
+
+.dobvkarz {
+    border: 1px solid black;
+    outline: none;
+    background: none;
+    color: black;
+}
+
+
+.buttonhajordnaxord {
+    outline: none;
+    border: none;
+    background: none;
+    color: #4d4d4d;
+    font-size: larger;
+}
+
+.buttonhajordnaxord:hover {
+    color:  rgba(123, 95, 29, 0.525);
+} 
+
+.register {
+    height: 500px;
+    overflow: hidden;
+    width: 44%;
+    margin: 10px;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    border-radius: 10px;
+}
+
+
+.inputreg {
+    height: 30px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+#reglog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonreg {
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.login {
+    height: 500px;
+    overflow: hidden;
+    width: 44%;
+    margin: 10px;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    border-radius: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Панель скрыта за правым краем */
+    width: 300px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.88);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    margin-top: 130px;
+    color: white;
+}
+
+.sidebar.open {
+    right: 0; /* Панель выдвигается слева */
+}
+
+.sidebar-content {
+    padding: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
